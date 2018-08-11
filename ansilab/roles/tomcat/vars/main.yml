@@ -1,0 +1,7 @@
+---
+# vars file for ./roles/tomcat
+
+
+port_no: 11111
+tomcat_file: /home/osgdev/ansilab/roles/tomcat/files
+

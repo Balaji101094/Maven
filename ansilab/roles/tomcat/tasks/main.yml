@@ -1,0 +1,26 @@
+---
+# tasks file for ./roles/tomcat
+
+- name: Copy tar file to tomcat file folder
+  copy:
+    src: /home/osgdev/myDownloads/apache-tomcat-8.5.27.tar.gz
+    dest: "{{tomcat_file}}"
+
+- name: Untar the tomcat tar file
+  unarchive:
+    src: /home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27.tar.gz
+    dest: "{{tomcat_file}}"
+  notify: Stop Tomcat Service
+
+- name: Download war file
+  get_url:
+    url: http://localhost:5081/artifactory/generic-local/devops/ilp1/ILP/0.0.1-SNAPSHOT/ILP-0.0.1-SNAPSHOT.war
+    dest: /home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27/webapps
+- name: Change port address
+  template:
+    src: /home/osgdev/ansilab/roles/tomcat/templates/server.xml.j2
+    dest: "{{tomcat_file}}/apache-tomcat-8.5.27/conf/server.xml"
+  notify: Start Tomcat Service
+
+
+

@@ -1,0 +1,660 @@
+24-Jul-2018 18:14:30.665 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.27
+24-Jul-2018 18:14:30.680 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jan 18 2018 20:12:40 UTC
+24-Jul-2018 18:14:30.681 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.27.0
+24-Jul-2018 18:14:30.681 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+24-Jul-2018 18:14:30.681 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.4.0-112-generic
+24-Jul-2018 18:14:30.681 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+24-Jul-2018 18:14:30.681 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/java/jdk1.8.0_162/jre
+24-Jul-2018 18:14:30.681 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_162-b12
+24-Jul-2018 18:14:30.682 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+24-Jul-2018 18:14:30.682 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27
+24-Jul-2018 18:14:30.682 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27
+24-Jul-2018 18:14:30.684 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27/conf/logging.properties
+24-Jul-2018 18:14:30.685 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+24-Jul-2018 18:14:30.685 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+24-Jul-2018 18:14:30.687 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+24-Jul-2018 18:14:30.687 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+24-Jul-2018 18:14:30.688 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27
+24-Jul-2018 18:14:30.688 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27
+24-Jul-2018 18:14:30.688 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27/temp
+24-Jul-2018 18:14:30.688 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+24-Jul-2018 18:14:30.899 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-11111"]
+24-Jul-2018 18:14:30.919 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+24-Jul-2018 18:14:30.928 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+24-Jul-2018 18:14:30.930 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+24-Jul-2018 18:14:30.938 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 955 ms
+24-Jul-2018 18:14:30.975 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+24-Jul-2018 18:14:30.975 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.27
+24-Jul-2018 18:14:30.992 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27/webapps/examples]
+24-Jul-2018 18:14:32.072 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27/webapps/examples] has finished in [1,080] ms
+24-Jul-2018 18:14:32.073 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27/webapps/docs]
+24-Jul-2018 18:14:32.113 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27/webapps/docs] has finished in [40] ms
+24-Jul-2018 18:14:32.113 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27/webapps/manager]
+24-Jul-2018 18:14:32.231 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27/webapps/manager] has finished in [118] ms
+24-Jul-2018 18:14:32.232 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27/webapps/host-manager]
+24-Jul-2018 18:14:32.295 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27/webapps/host-manager] has finished in [63] ms
+24-Jul-2018 18:14:32.295 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27/webapps/ROOT]
+24-Jul-2018 18:14:32.336 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27/webapps/ROOT] has finished in [41] ms
+24-Jul-2018 18:14:32.345 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-11111"]
+24-Jul-2018 18:14:32.406 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+24-Jul-2018 18:14:32.423 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1484 ms
+24-Jul-2018 18:18:21.780 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+24-Jul-2018 18:18:21.781 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-11111"]
+24-Jul-2018 18:18:21.842 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+24-Jul-2018 18:18:21.893 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+24-Jul-2018 18:18:21.942 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-11111"]
+24-Jul-2018 18:18:21.945 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+24-Jul-2018 18:18:21.949 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-11111"]
+24-Jul-2018 18:18:21.951 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+24-Jul-2018 18:18:24.315 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.27
+24-Jul-2018 18:18:24.319 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jan 18 2018 20:12:40 UTC
+24-Jul-2018 18:18:24.319 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.27.0
+24-Jul-2018 18:18:24.319 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+24-Jul-2018 18:18:24.319 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.4.0-112-generic
+24-Jul-2018 18:18:24.319 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+24-Jul-2018 18:18:24.319 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/java/jdk1.8.0_162/jre
+24-Jul-2018 18:18:24.319 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_162-b12
+24-Jul-2018 18:18:24.320 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+24-Jul-2018 18:18:24.320 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27
+24-Jul-2018 18:18:24.320 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27
+24-Jul-2018 18:18:24.320 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27/conf/logging.properties
+24-Jul-2018 18:18:24.320 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+24-Jul-2018 18:18:24.320 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+24-Jul-2018 18:18:24.321 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+24-Jul-2018 18:18:24.321 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+24-Jul-2018 18:18:24.321 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27
+24-Jul-2018 18:18:24.321 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27
+24-Jul-2018 18:18:24.321 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27/temp
+24-Jul-2018 18:18:24.321 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+24-Jul-2018 18:18:24.552 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-11110"]
+24-Jul-2018 18:18:24.569 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+24-Jul-2018 18:18:24.642 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+24-Jul-2018 18:18:24.647 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+24-Jul-2018 18:18:24.659 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1309 ms
+24-Jul-2018 18:18:24.790 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+24-Jul-2018 18:18:24.791 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.27
+24-Jul-2018 18:18:24.806 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27/webapps/examples]
+24-Jul-2018 18:18:26.344 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27/webapps/examples] has finished in [1,537] ms
+24-Jul-2018 18:18:26.345 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27/webapps/docs]
+24-Jul-2018 18:18:26.421 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27/webapps/docs] has finished in [76] ms
+24-Jul-2018 18:18:26.422 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27/webapps/manager]
+24-Jul-2018 18:18:26.498 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27/webapps/manager] has finished in [76] ms
+24-Jul-2018 18:18:26.499 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27/webapps/host-manager]
+24-Jul-2018 18:18:26.552 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27/webapps/host-manager] has finished in [53] ms
+24-Jul-2018 18:18:26.553 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27/webapps/ROOT]
+24-Jul-2018 18:18:26.587 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27/webapps/ROOT] has finished in [34] ms
+24-Jul-2018 18:18:26.593 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-11110"]
+24-Jul-2018 18:18:26.607 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+24-Jul-2018 18:18:26.614 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1953 ms
+24-Jul-2018 18:24:03.229 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+24-Jul-2018 18:24:03.230 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-11110"]
+24-Jul-2018 18:24:03.239 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+24-Jul-2018 18:24:03.295 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+24-Jul-2018 18:24:03.419 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-11110"]
+24-Jul-2018 18:24:03.424 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+24-Jul-2018 18:24:03.426 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-11110"]
+24-Jul-2018 18:24:03.440 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+24-Jul-2018 18:24:04.892 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.27
+24-Jul-2018 18:24:04.895 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jan 18 2018 20:12:40 UTC
+24-Jul-2018 18:24:04.895 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.27.0
+24-Jul-2018 18:24:04.895 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+24-Jul-2018 18:24:04.895 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.4.0-112-generic
+24-Jul-2018 18:24:04.895 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+24-Jul-2018 18:24:04.895 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/java/jdk1.8.0_162/jre
+24-Jul-2018 18:24:04.895 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_162-b12
+24-Jul-2018 18:24:04.895 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+24-Jul-2018 18:24:04.896 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27
+24-Jul-2018 18:24:04.896 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27
+24-Jul-2018 18:24:04.896 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27/conf/logging.properties
+24-Jul-2018 18:24:04.896 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+24-Jul-2018 18:24:04.896 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+24-Jul-2018 18:24:04.896 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+24-Jul-2018 18:24:04.896 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+24-Jul-2018 18:24:04.896 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27
+24-Jul-2018 18:24:04.897 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27
+24-Jul-2018 18:24:04.897 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27/temp
+24-Jul-2018 18:24:04.897 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+24-Jul-2018 18:24:05.191 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-10001"]
+24-Jul-2018 18:24:05.213 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+24-Jul-2018 18:24:05.233 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+24-Jul-2018 18:24:05.237 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+24-Jul-2018 18:24:05.239 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1188 ms
+24-Jul-2018 18:24:05.282 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+24-Jul-2018 18:24:05.282 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.27
+24-Jul-2018 18:24:05.366 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27/webapps/examples]
+24-Jul-2018 18:24:06.556 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27/webapps/examples] has finished in [1,190] ms
+24-Jul-2018 18:24:06.557 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27/webapps/docs]
+24-Jul-2018 18:24:06.595 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27/webapps/docs] has finished in [38] ms
+24-Jul-2018 18:24:06.595 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27/webapps/manager]
+24-Jul-2018 18:24:06.744 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27/webapps/manager] has finished in [148] ms
+24-Jul-2018 18:24:06.744 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27/webapps/host-manager]
+24-Jul-2018 18:24:06.774 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27/webapps/host-manager] has finished in [30] ms
+24-Jul-2018 18:24:06.774 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27/webapps/ROOT]
+24-Jul-2018 18:24:06.791 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27/webapps/ROOT] has finished in [17] ms
+24-Jul-2018 18:24:06.795 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-10001"]
+24-Jul-2018 18:24:06.807 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+24-Jul-2018 18:24:06.832 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1593 ms
+24-Jul-2018 19:27:57.916 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+24-Jul-2018 19:27:57.916 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-10001"]
+24-Jul-2018 19:27:57.923 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+24-Jul-2018 19:27:57.924 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+24-Jul-2018 19:27:58.008 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-10001"]
+24-Jul-2018 19:27:58.016 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+24-Jul-2018 19:27:58.021 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-10001"]
+24-Jul-2018 19:27:58.022 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+24-Jul-2018 19:27:59.632 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.27
+24-Jul-2018 19:27:59.638 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jan 18 2018 20:12:40 UTC
+24-Jul-2018 19:27:59.639 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.27.0
+24-Jul-2018 19:27:59.639 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+24-Jul-2018 19:27:59.639 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.4.0-112-generic
+24-Jul-2018 19:27:59.640 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+24-Jul-2018 19:27:59.640 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/java/jdk1.8.0_162/jre
+24-Jul-2018 19:27:59.640 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_162-b12
+24-Jul-2018 19:27:59.641 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+24-Jul-2018 19:27:59.641 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27
+24-Jul-2018 19:27:59.641 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27
+24-Jul-2018 19:27:59.645 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27/conf/logging.properties
+24-Jul-2018 19:27:59.646 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+24-Jul-2018 19:27:59.647 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+24-Jul-2018 19:27:59.648 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+24-Jul-2018 19:27:59.649 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+24-Jul-2018 19:27:59.649 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27
+24-Jul-2018 19:27:59.650 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27
+24-Jul-2018 19:27:59.650 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27/temp
+24-Jul-2018 19:27:59.650 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+24-Jul-2018 19:27:59.939 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-10001"]
+24-Jul-2018 19:27:59.967 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+24-Jul-2018 19:27:59.983 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+24-Jul-2018 19:27:59.990 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+24-Jul-2018 19:27:59.993 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1205 ms
+24-Jul-2018 19:28:00.074 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+24-Jul-2018 19:28:00.127 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.27
+24-Jul-2018 19:28:00.150 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27/webapps/examples]
+24-Jul-2018 19:28:01.120 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27/webapps/examples] has finished in [970] ms
+24-Jul-2018 19:28:01.121 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27/webapps/docs]
+24-Jul-2018 19:28:01.153 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27/webapps/docs] has finished in [32] ms
+24-Jul-2018 19:28:01.171 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27/webapps/manager]
+24-Jul-2018 19:28:01.251 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27/webapps/manager] has finished in [80] ms
+24-Jul-2018 19:28:01.252 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27/webapps/host-manager]
+24-Jul-2018 19:28:01.305 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27/webapps/host-manager] has finished in [53] ms
+24-Jul-2018 19:28:01.306 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27/webapps/ROOT]
+24-Jul-2018 19:28:01.343 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27/webapps/ROOT] has finished in [37] ms
+24-Jul-2018 19:28:01.351 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-10001"]
+24-Jul-2018 19:28:01.372 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+24-Jul-2018 19:28:01.376 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1382 ms
+25-Jul-2018 10:31:40.560 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-10001"]
+25-Jul-2018 10:31:42.595 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+25-Jul-2018 10:31:42.599 INFO [Thread-5] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+25-Jul-2018 10:31:44.441 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-10001"]
+25-Jul-2018 10:31:44.896 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+25-Jul-2018 10:31:44.928 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-10001"]
+25-Jul-2018 10:31:45.005 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+25-Jul-2018 10:56:07.419 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.27
+25-Jul-2018 10:56:07.426 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jan 18 2018 20:12:40 UTC
+25-Jul-2018 10:56:07.426 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.27.0
+25-Jul-2018 10:56:07.426 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+25-Jul-2018 10:56:07.426 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.4.0-112-generic
+25-Jul-2018 10:56:07.430 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+25-Jul-2018 10:56:07.430 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/java/jdk1.8.0_162/jre
+25-Jul-2018 10:56:07.430 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_162-b12
+25-Jul-2018 10:56:07.431 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+25-Jul-2018 10:56:07.431 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27
+25-Jul-2018 10:56:07.431 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27
+25-Jul-2018 10:56:07.431 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27/conf/logging.properties
+25-Jul-2018 10:56:07.432 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+25-Jul-2018 10:56:07.432 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+25-Jul-2018 10:56:07.432 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+25-Jul-2018 10:56:07.433 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+25-Jul-2018 10:56:07.433 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27
+25-Jul-2018 10:56:07.433 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27
+25-Jul-2018 10:56:07.433 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27/temp
+25-Jul-2018 10:56:07.433 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+25-Jul-2018 10:56:08.714 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-10001"]
+25-Jul-2018 10:56:08.860 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+25-Jul-2018 10:56:08.899 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+25-Jul-2018 10:56:08.905 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+25-Jul-2018 10:56:08.905 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 3286 ms
+25-Jul-2018 10:56:09.053 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+25-Jul-2018 10:56:09.060 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.27
+25-Jul-2018 10:56:09.101 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27/webapps/examples]
+25-Jul-2018 10:56:11.211 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27/webapps/examples] has finished in [2,100] ms
+25-Jul-2018 10:56:11.211 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27/webapps/docs]
+25-Jul-2018 10:56:11.231 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27/webapps/docs] has finished in [20] ms
+25-Jul-2018 10:56:11.232 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27/webapps/manager]
+25-Jul-2018 10:56:11.406 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27/webapps/manager] has finished in [174] ms
+25-Jul-2018 10:56:11.408 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27/webapps/host-manager]
+25-Jul-2018 10:56:11.529 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27/webapps/host-manager] has finished in [121] ms
+25-Jul-2018 10:56:11.529 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27/webapps/ROOT]
+25-Jul-2018 10:56:11.544 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27/webapps/ROOT] has finished in [15] ms
+25-Jul-2018 10:56:11.559 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-10001"]
+25-Jul-2018 10:56:11.617 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+25-Jul-2018 10:56:11.621 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 2715 ms
+25-Jul-2018 10:56:46.829 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+25-Jul-2018 10:56:46.830 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-10001"]
+25-Jul-2018 10:56:46.898 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+25-Jul-2018 10:56:46.951 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+25-Jul-2018 10:56:47.229 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-10001"]
+25-Jul-2018 10:56:47.240 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+25-Jul-2018 10:56:47.251 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-10001"]
+25-Jul-2018 10:56:47.252 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+25-Jul-2018 10:56:52.203 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.27
+25-Jul-2018 10:56:52.208 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jan 18 2018 20:12:40 UTC
+25-Jul-2018 10:56:52.208 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.27.0
+25-Jul-2018 10:56:52.208 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+25-Jul-2018 10:56:52.209 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.4.0-112-generic
+25-Jul-2018 10:56:52.209 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+25-Jul-2018 10:56:52.210 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/java/jdk1.8.0_162/jre
+25-Jul-2018 10:56:52.211 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_162-b12
+25-Jul-2018 10:56:52.211 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+25-Jul-2018 10:56:52.211 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27
+25-Jul-2018 10:56:52.212 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27
+25-Jul-2018 10:56:52.212 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27/conf/logging.properties
+25-Jul-2018 10:56:52.213 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+25-Jul-2018 10:56:52.214 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+25-Jul-2018 10:56:52.215 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+25-Jul-2018 10:56:52.215 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+25-Jul-2018 10:56:52.216 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27
+25-Jul-2018 10:56:52.216 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27
+25-Jul-2018 10:56:52.217 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27/temp
+25-Jul-2018 10:56:52.217 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+25-Jul-2018 10:56:52.537 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-10011"]
+25-Jul-2018 10:56:52.561 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+25-Jul-2018 10:56:52.572 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+25-Jul-2018 10:56:52.575 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+25-Jul-2018 10:56:52.576 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 2999 ms
+25-Jul-2018 10:56:52.668 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+25-Jul-2018 10:56:52.668 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.27
+25-Jul-2018 10:56:52.824 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27/webapps/examples]
+25-Jul-2018 10:56:54.269 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27/webapps/examples] has finished in [1,444] ms
+25-Jul-2018 10:56:54.270 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27/webapps/docs]
+25-Jul-2018 10:56:54.308 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27/webapps/docs] has finished in [37] ms
+25-Jul-2018 10:56:54.308 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27/webapps/manager]
+25-Jul-2018 10:56:54.401 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27/webapps/manager] has finished in [93] ms
+25-Jul-2018 10:56:54.401 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27/webapps/host-manager]
+25-Jul-2018 10:56:54.473 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27/webapps/host-manager] has finished in [72] ms
+25-Jul-2018 10:56:54.473 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27/webapps/ROOT]
+25-Jul-2018 10:56:54.604 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27/webapps/ROOT] has finished in [125] ms
+25-Jul-2018 10:56:54.661 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-10011"]
+25-Jul-2018 10:56:54.719 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+25-Jul-2018 10:56:54.727 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 2150 ms
+25-Jul-2018 11:01:05.633 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+25-Jul-2018 11:01:05.633 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-10011"]
+25-Jul-2018 11:01:05.639 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+25-Jul-2018 11:01:05.691 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+25-Jul-2018 11:01:05.846 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-10011"]
+25-Jul-2018 11:01:05.849 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+25-Jul-2018 11:01:05.852 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-10011"]
+25-Jul-2018 11:01:05.853 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+25-Jul-2018 11:01:07.253 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.27
+25-Jul-2018 11:01:07.256 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jan 18 2018 20:12:40 UTC
+25-Jul-2018 11:01:07.256 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.27.0
+25-Jul-2018 11:01:07.256 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+25-Jul-2018 11:01:07.256 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.4.0-112-generic
+25-Jul-2018 11:01:07.256 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+25-Jul-2018 11:01:07.256 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/java/jdk1.8.0_162/jre
+25-Jul-2018 11:01:07.256 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_162-b12
+25-Jul-2018 11:01:07.256 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+25-Jul-2018 11:01:07.256 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27
+25-Jul-2018 11:01:07.256 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27
+25-Jul-2018 11:01:07.257 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27/conf/logging.properties
+25-Jul-2018 11:01:07.257 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+25-Jul-2018 11:01:07.257 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+25-Jul-2018 11:01:07.257 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+25-Jul-2018 11:01:07.257 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+25-Jul-2018 11:01:07.257 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27
+25-Jul-2018 11:01:07.257 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27
+25-Jul-2018 11:01:07.257 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27/temp
+25-Jul-2018 11:01:07.258 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+25-Jul-2018 11:01:07.584 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-10011"]
+25-Jul-2018 11:01:07.605 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+25-Jul-2018 11:01:07.617 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+25-Jul-2018 11:01:07.624 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+25-Jul-2018 11:01:07.628 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1133 ms
+25-Jul-2018 11:01:07.671 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+25-Jul-2018 11:01:07.675 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.27
+25-Jul-2018 11:01:07.695 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27/webapps/examples]
+25-Jul-2018 11:01:08.469 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27/webapps/examples] has finished in [776] ms
+25-Jul-2018 11:01:08.469 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27/webapps/docs]
+25-Jul-2018 11:01:08.484 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27/webapps/docs] has finished in [15] ms
+25-Jul-2018 11:01:08.505 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27/webapps/manager]
+25-Jul-2018 11:01:08.543 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27/webapps/manager] has finished in [38] ms
+25-Jul-2018 11:01:08.544 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27/webapps/host-manager]
+25-Jul-2018 11:01:08.564 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27/webapps/host-manager] has finished in [20] ms
+25-Jul-2018 11:01:08.565 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27/webapps/ROOT]
+25-Jul-2018 11:01:08.576 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27/webapps/ROOT] has finished in [11] ms
+25-Jul-2018 11:01:08.579 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-10011"]
+25-Jul-2018 11:01:08.601 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+25-Jul-2018 11:01:08.604 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 975 ms
+25-Jul-2018 11:09:07.977 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+25-Jul-2018 11:09:07.977 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-10011"]
+25-Jul-2018 11:09:07.993 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+25-Jul-2018 11:09:07.994 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+25-Jul-2018 11:09:08.073 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-10011"]
+25-Jul-2018 11:09:08.078 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+25-Jul-2018 11:09:08.080 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-10011"]
+25-Jul-2018 11:09:08.082 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+25-Jul-2018 11:09:09.472 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.27
+25-Jul-2018 11:09:09.476 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jan 18 2018 20:12:40 UTC
+25-Jul-2018 11:09:09.476 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.27.0
+25-Jul-2018 11:09:09.477 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+25-Jul-2018 11:09:09.477 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.4.0-112-generic
+25-Jul-2018 11:09:09.477 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+25-Jul-2018 11:09:09.477 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/java/jdk1.8.0_162/jre
+25-Jul-2018 11:09:09.477 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_162-b12
+25-Jul-2018 11:09:09.478 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+25-Jul-2018 11:09:09.478 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27
+25-Jul-2018 11:09:09.478 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27
+25-Jul-2018 11:09:09.479 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27/conf/logging.properties
+25-Jul-2018 11:09:09.479 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+25-Jul-2018 11:09:09.480 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+25-Jul-2018 11:09:09.481 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+25-Jul-2018 11:09:09.481 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+25-Jul-2018 11:09:09.481 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27
+25-Jul-2018 11:09:09.481 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27
+25-Jul-2018 11:09:09.481 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27/temp
+25-Jul-2018 11:09:09.482 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+25-Jul-2018 11:09:09.738 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-10011"]
+25-Jul-2018 11:09:09.754 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+25-Jul-2018 11:09:09.763 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+25-Jul-2018 11:09:09.764 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+25-Jul-2018 11:09:09.765 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1038 ms
+25-Jul-2018 11:09:09.803 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+25-Jul-2018 11:09:09.804 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.27
+25-Jul-2018 11:09:09.819 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27/webapps/examples]
+25-Jul-2018 11:09:10.821 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27/webapps/examples] has finished in [1,001] ms
+25-Jul-2018 11:09:10.822 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27/webapps/docs]
+25-Jul-2018 11:09:10.861 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27/webapps/docs] has finished in [39] ms
+25-Jul-2018 11:09:10.861 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27/webapps/manager]
+25-Jul-2018 11:09:10.940 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27/webapps/manager] has finished in [79] ms
+25-Jul-2018 11:09:10.941 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27/webapps/host-manager]
+25-Jul-2018 11:09:10.980 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27/webapps/host-manager] has finished in [39] ms
+25-Jul-2018 11:09:10.980 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27/webapps/ROOT]
+25-Jul-2018 11:09:10.999 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27/webapps/ROOT] has finished in [19] ms
+25-Jul-2018 11:09:11.004 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-10011"]
+25-Jul-2018 11:09:11.013 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+25-Jul-2018 11:09:11.018 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1252 ms
+25-Jul-2018 11:09:51.638 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+25-Jul-2018 11:09:51.638 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-10011"]
+25-Jul-2018 11:09:51.695 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+25-Jul-2018 11:09:51.746 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+25-Jul-2018 11:09:51.835 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-10011"]
+25-Jul-2018 11:09:51.839 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+25-Jul-2018 11:09:51.843 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-10011"]
+25-Jul-2018 11:09:51.845 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+25-Jul-2018 11:09:53.245 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.27
+25-Jul-2018 11:09:53.251 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jan 18 2018 20:12:40 UTC
+25-Jul-2018 11:09:53.251 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.27.0
+25-Jul-2018 11:09:53.252 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+25-Jul-2018 11:09:53.252 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.4.0-112-generic
+25-Jul-2018 11:09:53.253 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+25-Jul-2018 11:09:53.253 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/java/jdk1.8.0_162/jre
+25-Jul-2018 11:09:53.254 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_162-b12
+25-Jul-2018 11:09:53.254 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+25-Jul-2018 11:09:53.255 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27
+25-Jul-2018 11:09:53.255 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27
+25-Jul-2018 11:09:53.256 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27/conf/logging.properties
+25-Jul-2018 11:09:53.256 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+25-Jul-2018 11:09:53.257 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+25-Jul-2018 11:09:53.258 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+25-Jul-2018 11:09:53.259 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+25-Jul-2018 11:09:53.259 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27
+25-Jul-2018 11:09:53.260 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27
+25-Jul-2018 11:09:53.260 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27/temp
+25-Jul-2018 11:09:53.261 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+25-Jul-2018 11:09:53.585 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-11011"]
+25-Jul-2018 11:09:53.606 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+25-Jul-2018 11:09:53.617 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+25-Jul-2018 11:09:53.620 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+25-Jul-2018 11:09:53.621 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1249 ms
+25-Jul-2018 11:09:53.702 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+25-Jul-2018 11:09:53.703 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.27
+25-Jul-2018 11:09:53.717 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27/webapps/examples]
+25-Jul-2018 11:09:54.526 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27/webapps/examples] has finished in [809] ms
+25-Jul-2018 11:09:54.527 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27/webapps/docs]
+25-Jul-2018 11:09:54.551 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27/webapps/docs] has finished in [24] ms
+25-Jul-2018 11:09:54.552 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27/webapps/manager]
+25-Jul-2018 11:09:54.718 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27/webapps/manager] has finished in [165] ms
+25-Jul-2018 11:09:54.730 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27/webapps/host-manager]
+25-Jul-2018 11:09:54.797 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27/webapps/host-manager] has finished in [67] ms
+25-Jul-2018 11:09:54.798 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27/webapps/ROOT]
+25-Jul-2018 11:09:54.845 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27/webapps/ROOT] has finished in [46] ms
+25-Jul-2018 11:09:54.848 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-11011"]
+25-Jul-2018 11:09:54.857 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+25-Jul-2018 11:09:54.862 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1240 ms
+25-Jul-2018 17:57:14.395 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-11011"]
+25-Jul-2018 17:57:15.751 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+25-Jul-2018 17:57:15.809 INFO [Thread-5] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+25-Jul-2018 17:57:17.361 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-11011"]
+25-Jul-2018 17:57:17.439 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+25-Jul-2018 17:57:17.599 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-11011"]
+25-Jul-2018 17:57:17.667 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+26-Jul-2018 09:44:47.120 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.27
+26-Jul-2018 09:44:47.134 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jan 18 2018 20:12:40 UTC
+26-Jul-2018 09:44:47.134 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.27.0
+26-Jul-2018 09:44:47.134 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+26-Jul-2018 09:44:47.134 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.4.0-112-generic
+26-Jul-2018 09:44:47.135 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+26-Jul-2018 09:44:47.135 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/java/jdk1.8.0_162/jre
+26-Jul-2018 09:44:47.136 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_162-b12
+26-Jul-2018 09:44:47.137 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+26-Jul-2018 09:44:47.138 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27
+26-Jul-2018 09:44:47.138 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27
+26-Jul-2018 09:44:47.139 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27/conf/logging.properties
+26-Jul-2018 09:44:47.139 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+26-Jul-2018 09:44:47.140 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+26-Jul-2018 09:44:47.141 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+26-Jul-2018 09:44:47.141 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+26-Jul-2018 09:44:47.142 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27
+26-Jul-2018 09:44:47.142 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27
+26-Jul-2018 09:44:47.143 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27/temp
+26-Jul-2018 09:44:47.143 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+26-Jul-2018 09:44:48.234 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-11011"]
+26-Jul-2018 09:44:48.376 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+26-Jul-2018 09:44:48.400 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+26-Jul-2018 09:44:48.405 SEVERE [main] org.apache.catalina.core.StandardService.initInternal Failed to initialize connector [Connector[AJP/1.3-8009]]
+ org.apache.catalina.LifecycleException: Failed to initialize component [Connector[AJP/1.3-8009]]
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:113)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:549)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:875)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:621)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:644)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:309)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:492)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:996)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	... 12 more
+Caused by: java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1086)
+	at org.apache.tomcat.util.net.AbstractJsseEndpoint.init(AbstractJsseEndpoint.java:268)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:581)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:993)
+	... 13 more
+
+26-Jul-2018 09:44:48.407 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 2629 ms
+26-Jul-2018 09:44:48.482 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+26-Jul-2018 09:44:48.483 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.27
+26-Jul-2018 09:44:48.576 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27/webapps/examples]
+26-Jul-2018 09:44:50.072 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27/webapps/examples] has finished in [1,488] ms
+26-Jul-2018 09:44:50.072 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27/webapps/docs]
+26-Jul-2018 09:44:50.110 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27/webapps/docs] has finished in [38] ms
+26-Jul-2018 09:44:50.110 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27/webapps/manager]
+26-Jul-2018 09:44:50.154 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27/webapps/manager] has finished in [44] ms
+26-Jul-2018 09:44:50.158 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27/webapps/host-manager]
+26-Jul-2018 09:44:50.193 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27/webapps/host-manager] has finished in [34] ms
+26-Jul-2018 09:44:50.193 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27/webapps/ROOT]
+26-Jul-2018 09:44:50.217 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27/webapps/ROOT] has finished in [24] ms
+26-Jul-2018 09:44:50.229 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-11011"]
+26-Jul-2018 09:44:50.260 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1852 ms
+26-Jul-2018 12:13:25.641 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+26-Jul-2018 12:13:25.644 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-11011"]
+26-Jul-2018 12:13:25.701 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+26-Jul-2018 12:13:25.702 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+26-Jul-2018 12:13:25.899 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-11011"]
+26-Jul-2018 12:13:25.910 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-11011"]
+26-Jul-2018 12:13:25.912 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+26-Jul-2018 12:13:25.912 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+26-Jul-2018 12:13:27.100 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.27
+26-Jul-2018 12:13:27.103 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jan 18 2018 20:12:40 UTC
+26-Jul-2018 12:13:27.103 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.27.0
+26-Jul-2018 12:13:27.103 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+26-Jul-2018 12:13:27.103 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.4.0-112-generic
+26-Jul-2018 12:13:27.103 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+26-Jul-2018 12:13:27.103 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/java/jdk1.8.0_162/jre
+26-Jul-2018 12:13:27.103 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_162-b12
+26-Jul-2018 12:13:27.103 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+26-Jul-2018 12:13:27.103 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27
+26-Jul-2018 12:13:27.103 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27
+26-Jul-2018 12:13:27.104 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27/conf/logging.properties
+26-Jul-2018 12:13:27.104 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+26-Jul-2018 12:13:27.104 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+26-Jul-2018 12:13:27.104 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+26-Jul-2018 12:13:27.104 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+26-Jul-2018 12:13:27.104 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27
+26-Jul-2018 12:13:27.104 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27
+26-Jul-2018 12:13:27.104 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27/temp
+26-Jul-2018 12:13:27.104 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+26-Jul-2018 12:13:27.310 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-11011"]
+26-Jul-2018 12:13:27.330 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+26-Jul-2018 12:13:27.340 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+26-Jul-2018 12:13:27.341 SEVERE [main] org.apache.catalina.core.StandardService.initInternal Failed to initialize connector [Connector[AJP/1.3-8009]]
+ org.apache.catalina.LifecycleException: Failed to initialize component [Connector[AJP/1.3-8009]]
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:113)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:549)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:875)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:621)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:644)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:309)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:492)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:996)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	... 12 more
+Caused by: java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1086)
+	at org.apache.tomcat.util.net.AbstractJsseEndpoint.init(AbstractJsseEndpoint.java:268)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:581)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:993)
+	... 13 more
+
+26-Jul-2018 12:13:27.343 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 958 ms
+26-Jul-2018 12:13:27.370 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+26-Jul-2018 12:13:27.370 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.27
+26-Jul-2018 12:13:27.397 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27/webapps/ILP-0.0.1-SNAPSHOT.war]
+26-Jul-2018 12:13:28.306 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27/webapps/ILP-0.0.1-SNAPSHOT.war] has finished in [907] ms
+26-Jul-2018 12:13:28.307 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27/webapps/examples]
+26-Jul-2018 12:13:28.656 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27/webapps/examples] has finished in [348] ms
+26-Jul-2018 12:13:28.656 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27/webapps/docs]
+26-Jul-2018 12:13:28.679 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27/webapps/docs] has finished in [23] ms
+26-Jul-2018 12:13:28.680 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27/webapps/manager]
+26-Jul-2018 12:13:28.730 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27/webapps/manager] has finished in [50] ms
+26-Jul-2018 12:13:28.730 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27/webapps/host-manager]
+26-Jul-2018 12:13:28.777 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27/webapps/host-manager] has finished in [46] ms
+26-Jul-2018 12:13:28.777 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27/webapps/ROOT]
+26-Jul-2018 12:13:28.815 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27/webapps/ROOT] has finished in [38] ms
+26-Jul-2018 12:13:28.818 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-11011"]
+26-Jul-2018 12:13:28.840 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1497 ms
+26-Jul-2018 12:40:47.313 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+26-Jul-2018 12:40:47.315 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-11011"]
+26-Jul-2018 12:40:47.372 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+26-Jul-2018 12:40:47.372 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+26-Jul-2018 12:40:47.478 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-11011"]
+26-Jul-2018 12:40:47.481 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-11011"]
+26-Jul-2018 12:40:47.481 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+26-Jul-2018 12:40:47.482 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+26-Jul-2018 12:40:48.591 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.27
+26-Jul-2018 12:40:48.594 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jan 18 2018 20:12:40 UTC
+26-Jul-2018 12:40:48.594 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.27.0
+26-Jul-2018 12:40:48.594 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+26-Jul-2018 12:40:48.594 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.4.0-112-generic
+26-Jul-2018 12:40:48.594 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+26-Jul-2018 12:40:48.594 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/java/jdk1.8.0_162/jre
+26-Jul-2018 12:40:48.594 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_162-b12
+26-Jul-2018 12:40:48.594 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+26-Jul-2018 12:40:48.594 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27
+26-Jul-2018 12:40:48.595 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27
+26-Jul-2018 12:40:48.595 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27/conf/logging.properties
+26-Jul-2018 12:40:48.595 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+26-Jul-2018 12:40:48.596 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+26-Jul-2018 12:40:48.596 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+26-Jul-2018 12:40:48.597 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+26-Jul-2018 12:40:48.597 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27
+26-Jul-2018 12:40:48.597 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27
+26-Jul-2018 12:40:48.597 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27/temp
+26-Jul-2018 12:40:48.598 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+26-Jul-2018 12:40:48.831 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-11111"]
+26-Jul-2018 12:40:48.845 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+26-Jul-2018 12:40:48.858 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+26-Jul-2018 12:40:48.863 SEVERE [main] org.apache.catalina.core.StandardService.initInternal Failed to initialize connector [Connector[AJP/1.3-8009]]
+ org.apache.catalina.LifecycleException: Failed to initialize component [Connector[AJP/1.3-8009]]
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:113)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:549)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:875)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:621)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:644)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:309)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:492)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:996)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	... 12 more
+Caused by: java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1086)
+	at org.apache.tomcat.util.net.AbstractJsseEndpoint.init(AbstractJsseEndpoint.java:268)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:581)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:993)
+	... 13 more
+
+26-Jul-2018 12:40:48.865 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 872 ms
+26-Jul-2018 12:40:48.907 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+26-Jul-2018 12:40:48.908 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.27
+26-Jul-2018 12:40:48.946 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27/webapps/ILP-0.0.1-SNAPSHOT.war]
+26-Jul-2018 12:40:49.871 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27/webapps/ILP-0.0.1-SNAPSHOT.war] has finished in [924] ms
+26-Jul-2018 12:40:49.872 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27/webapps/examples]
+26-Jul-2018 12:40:50.112 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27/webapps/examples] has finished in [239] ms
+26-Jul-2018 12:40:50.122 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27/webapps/docs]
+26-Jul-2018 12:40:50.144 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27/webapps/docs] has finished in [21] ms
+26-Jul-2018 12:40:50.144 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27/webapps/manager]
+26-Jul-2018 12:40:50.206 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27/webapps/manager] has finished in [62] ms
+26-Jul-2018 12:40:50.206 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27/webapps/host-manager]
+26-Jul-2018 12:40:50.275 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27/webapps/host-manager] has finished in [69] ms
+26-Jul-2018 12:40:50.275 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27/webapps/ROOT]
+26-Jul-2018 12:40:50.324 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/osgdev/ansilab/roles/tomcat/files/apache-tomcat-8.5.27/webapps/ROOT] has finished in [49] ms
+26-Jul-2018 12:40:50.328 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-11111"]
+26-Jul-2018 12:40:50.352 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1487 ms

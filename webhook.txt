@@ -1,0 +1,45 @@
+Step to Test Jenkins with Web-hook automation.
+
+1. Login to github create a project for webhook testing.
+
+2. make directory in local machine as git repo.
+	mkdir git_webhook
+	git init 
+	git clone <github url of your webhook project>
+	create some file in git repo and do a commit and push
+	git add 
+	git commit -m "message"
+	git push -u origin master
+	verify if change are refelecting in Github.
+3. Create Access Token
+	Click on your profile > Settings > Access Tokens > Give Name to your Token > Set Expire date > Select Scope as api and read_user > Create personal access token.
+	Copy ur access token to notepad.
+4. Configure Jenkins and Github connection via access token
+	login to Jenkins > Manage Jenkins > Configure System > Scroll down to Github Section 
+	give name to your connection
+	Enter github url
+	Click Add to add new access token Add > Jenkins > change kind to Github API token > enter your API token saved in notepad > give ID and description > Add
+	select created credentials from the drop down
+	Click Test connection. Should result success. 
+5. Create new project in Jenkins
+	Create new project in Jenkins > configure > use Source code Management as Git > give URL for github project > add github credentials if a private project.
+	Under Build Trigger Section select "Build when a change is pushed to Github. Github webhook URL: <URL>"
+	copy the project URL in notepad seen in above step.
+	Under Build section add commands and save the project
+6. Interation of Jenkins project and Github project.
+	login to Github > select your project > Settings > Integrations.
+	Give URL as project URL noted in above step if IP is localhost change it exact ip of the machine and change job to project as below.
+	
+	http://localhost:8080/job/webhook_project to http://<machine IP>:8080/project/webhook_project
+	
+	Add secret token as token created in setp 3.
+	
+	uncheck SSL verificaiton > Click Add webhook
+	Test > Push events > Result should be HTTP 200.
+7. Do some more changes in git repo update exisiting file or create new file
+	Do changes in local git repo
+	git add	
+	git commit -m "message"
+	git push -u origin master
+	
+8. Verify in Jenkins a new build should be initiated for your webhook project.

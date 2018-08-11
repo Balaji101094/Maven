@@ -1,0 +1,8 @@
+---
+# handlers file for ./roles/tomcat
+
+- name: Stop Tomcat Service
+  shell: "{{tomcat_file}}/apache-tomcat-8.5.27/bin/shutdown.sh"
+
+- name: Start Tomcat Service
+  shell: "{{tomcat_file}}/apache-tomcat-8.5.27/bin/startup.sh"

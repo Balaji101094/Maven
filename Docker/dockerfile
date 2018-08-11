@@ -1,0 +1,17 @@
+FROM debian:stretch
+
+WORKDIR /opt/
+
+ADD jdk-8u181-linux-x64.tar.gz /opt/
+
+ADD /apache-tomcat-8.5.32.tar.gz /opt/
+
+ENV JAVA_HOME=/opt/jdk1.8.0_181
+
+ENV PATH $JAVA_HOME/bin:$PATH
+
+ADD ILP-0.0.1-SNAPSHOT.war /opt/apache-tomcat-8.5.32/webapps/
+
+EXPOSE 8080
+
+CMD ["/opt/apache-tomcat-8.5.32/bin/catalina.sh" , "run"]
