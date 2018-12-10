@@ -32,7 +32,7 @@ Step to Test Jenkins with Web-hook automation.
 	
 	http://localhost:8080/job/webhook_project to http://<machine IP>:8080/project/webhook_project
 	
-	Add secret token as token created in setp 3.
+Add secret token as token created in setp 3.
 	
 	uncheck SSL verificaiton > Click Add webhook
 	Test > Push events > Result should be HTTP 200.
