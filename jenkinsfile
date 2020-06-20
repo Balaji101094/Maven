@@ -2,7 +2,7 @@ pipeline {
 
 stages {
     stage('Git_Checkout') {
-    agent {master}
+    agent any
     steps{
      git url: 'https://github.com/abhisheknipun1/DevOps-Project.git'
     }
