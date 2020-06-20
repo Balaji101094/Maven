@@ -11,12 +11,11 @@ stages {
         agent { //here we select only docker build agents
             docker {
                 image 'maven:latest' //container will start from this image
-            
+            }
             }
              steps {
             sh 'mvn clean package' //this command will be executed inside maven container
         }
-    }
     }
     }
     }
